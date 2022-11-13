@@ -46,16 +46,7 @@ See "Credits" for the awesome way this version of the framework came to be.
 ## Super Easy setup: Use a maintained image
 Want a really simple way to get up and running? 
 
-VE3ELB has been maintaining a pre-built image of Raspberry-Noaa-V2 ('RN2') over here:
-[https://qsl.net/ve3elb/RaspiNOAA/](https://qsl.net/ve3elb/RaspiNOAA/)
-Setup instructions are in the PDF that is included. 
-
-There is also an image maintained by Jochen Köster DC9DD here. 
-[https://www.qsl.net/do3mla/raspberry-pi-images.html](https://www.qsl.net/do3mla/raspberry-pi-images.html)
-For interest Jochen's image is the base for this offgrid system in Northern Norway! 
-[https://usradioguy.com/science/off-grid-apt-lrpt-satellite-ground-station/](https://usradioguy.com/science/off-grid-apt-lrpt-satellite-ground-station/)
-
-These images are not always up to speed with the latest code, but lots of folks find images are a great way to get started quickly!
+On the future will be an OVA virtualbox Appliance to be easier
 
 ## Quick Start - building latest from the source on this repo
 /// IMPORTANT ///
