@@ -2,7 +2,7 @@
 - name: install wxtoimg
   become: yes
   apt:
-    deb: "{{ noaa_home }}/software/wxtoimg-armhf-2.11.2-beta.deb"
+    deb: "{{ noaa_home }}/software/wxtoimg_2.10.11-1_i386.deb"
     state: present
     update_cache: no
 
