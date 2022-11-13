@@ -6,10 +6,15 @@ Thanks to the original developers.
 
 /// IMPORTANT ///
 
+PROBABLY METEOR M2 DECODE IS NOT WORKING GREAT. SO I WILL TEST IT MORE
+
 EXTRA REQUIRMENTS!!! READ THIS PART:
 -After more testing. 100% Compatibility is SO: Debian Bullseye. Other SO will be tested and posted here.
+
 -You need to enter more commands. But i'm preparing it to be copy paste commands.
+
 -It's recomended minium knowledge about Linux and Debian. 
+
 -I'm trying to get a simple Virtualbox Machine to be more easier for the people to use this FORK.
 
 /// IMPORTANT ///
