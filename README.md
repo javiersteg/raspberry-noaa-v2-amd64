@@ -17,6 +17,8 @@ EXTRA REQUIRMENTS!!! READ THIS PART:
 
 -I'm trying to get a simple Virtualbox Machine to be more easier for the people to use this FORK.
 
+-You need an user named "pi" and need to be SUDO. Therefore you need to be logged in this user.
+
 /// IMPORTANT ///
 
 Looking for support, wanting to talk about new features, or just hang out? Come chat with us on [Discord!](https://discord.gg/A9w68pqBuc)
