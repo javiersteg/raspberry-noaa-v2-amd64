@@ -1,5 +1,15 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
+This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
+Thanks to the original developers
+/// IMPORTANT ///
+EXTRA REQUIRMENTS!!! READ THIS PART:
+-After more testing. 100% Compatibility is SO: Debian Bullseye. Other SO will be tested and posted here.
+-You need to enter more commands. But i'm preparing it to be copy paste commands.
+-It's recomended minium knowledge about Linux and Debian. 
+-I'm trying to get a simple Virtualbox Machine to be more easier for the people to use this FORK.
+/// IMPORTANT ///
+
 Looking for support, wanting to talk about new features, or just hang out? Come chat with us on [Discord!](https://discord.gg/A9w68pqBuc)
 
 **_This is a spinoff of the original [raspberry-noaa](https://github.com/reynico/raspberry-noaa) created by Nico - they have
@@ -37,6 +47,8 @@ For interest Jochen's image is the base for this offgrid system in Northern Norw
 These images are not always up to speed with the latest code, but lots of folks find images are a great way to get started quickly!
 
 ## Quick Start - building latest from the source on this repo
+/// IMPORTANT ///
+To install you need to follow this Steps to get it working.
 
 Want to build your own, but don't want all the nitty-gritty details? 
 Here's the quick-start - if you have questions, continue reading the rest of this README or
@@ -62,6 +74,7 @@ vi config/settings.yml
 ./install_and_upgrade.sh
 ```
 
+/// IMPORTANT ///
 Once complete, follow the [migration document](docs/migrate_from_raspberry_noaa.md) if you want to migrate from the original raspberry-noaa
 to this version 2 (keep your previous captures and make them visible).
 
