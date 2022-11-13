@@ -6,7 +6,7 @@ Thanks to the original developers.
 
 /// IMPORTANT ///
 
-PROBABLY METEOR M2 DECODE IS NOT WORKING GREAT. SO I WILL TEST IT MORE
+PROBABLY METEOR M2 DECODE IS NOT WORKING WELL. SO I WILL TEST IT MORE
 
 EXTRA REQUIRMENTS!!! READ THIS PART:
 -After more testing. 100% Compatibility is SO: Debian Bullseye AMD64 (NON-FREE). Other SO will be tested and posted here. If you know more about this please report me. I'm not sure if this will work ON DEBIAN 11 (FREE). Actually working S.O: Debian 11 AMD64 (NON-FREE)
