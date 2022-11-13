@@ -75,6 +75,7 @@ vi config/settings.yml
 ```
 
 /// IMPORTANT ///
+
 Once complete, follow the [migration document](docs/migrate_from_raspberry_noaa.md) if you want to migrate from the original raspberry-noaa
 to this version 2 (keep your previous captures and make them visible).
 
