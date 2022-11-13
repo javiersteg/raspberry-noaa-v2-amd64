@@ -1,13 +1,17 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
 This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
-Thanks to the original developers
+
+Thanks to the original developers.
+
 /// IMPORTANT ///
+
 EXTRA REQUIRMENTS!!! READ THIS PART:
 -After more testing. 100% Compatibility is SO: Debian Bullseye. Other SO will be tested and posted here.
 -You need to enter more commands. But i'm preparing it to be copy paste commands.
 -It's recomended minium knowledge about Linux and Debian. 
 -I'm trying to get a simple Virtualbox Machine to be more easier for the people to use this FORK.
+
 /// IMPORTANT ///
 
 Looking for support, wanting to talk about new features, or just hang out? Come chat with us on [Discord!](https://discord.gg/A9w68pqBuc)
