@@ -5,6 +5,7 @@ This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AM
 Thanks to the original developers.
 
 /// IMPORTANT ///
+IF YOU NEED HELP YOU CAN SEND ME A TELEGRAM: @javiersteg
 
 PROBABLY METEOR M2 DECODE IS NOT WORKING WELL. SO I WILL TEST IT MORE
 
