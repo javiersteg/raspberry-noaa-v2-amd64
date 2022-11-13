@@ -9,7 +9,7 @@ Thanks to the original developers.
 PROBABLY METEOR M2 DECODE IS NOT WORKING GREAT. SO I WILL TEST IT MORE
 
 EXTRA REQUIRMENTS!!! READ THIS PART:
--After more testing. 100% Compatibility is SO: Debian Bullseye. Other SO will be tested and posted here.
+-After more testing. 100% Compatibility is SO: Debian Bullseye AMD64 (NON-FREE). Other SO will be tested and posted here. If you know more about this please report me. I'm not sure if this will work ON DEBIAN 11 (FREE). Actually working S.O: Debian 11 AMD64 (NON-FREE)
 
 -You need to enter more commands. But i'm preparing it to be copy paste commands.
 
@@ -66,22 +66,42 @@ Here's the quick-start - if you have questions, continue reading the rest of thi
 reach out by submitting an issue:
 
 ```bash
-# update os localisation settings
-sudo raspi-config
+# update os localisation settings / YOU SHOULD CONFIGURE YOUR LOCAL SETTINGS ON DEBIAN INSTALLATION OR AFTER : See this link for time zone https://linuxize.com/post/how-to-set-or-change-timezone-on-debian-10/
+#See this link for LOCALES: https://serverfault.com/a/54599
+#Now you need to be sudo. Be logged on "pi" USER. After this you can continue
+
+#ADD i386 ARCHITECTURE TO BE USABLE BY RASPNOAAV2
+sudo dpkg --add-architecture i386
+sudo apt update
+
+#INSTALL ANSIBLE AND RTL-SDR before.
+sudo apt install ansible rtl-sdr
 
 # install git
 sudo apt-get -y install git
 
 # clone repository
 cd $HOME
-git clone https://github.com/jekhokie/raspberry-noaa-v2.git
+git clone https://github.com/javiersteg/raspberry-noaa-v2-amd64.git
+mv raspberry-noaa-v2-amd64 raspberry-noaa-v2
 cd raspberry-noaa-v2/
 
-# copy sample settings and update for your install
+#UDEV RULES. Copy file example of RTL-SDR. Then activate it. (THIS IS USED TO ALLOW NON-ROOT USERS TO USE RTL-SDR DONGLE)
+sudo cp udev/10-rtl-sdr.rules /etc/udev/rules.d/10-rtl-sdr.rules
+sudo udevadm control --reload-rules
+
+#INSTALL EXTRA FILES THAT DEBIAN NOT FOUND:
+sudo apt remove libjpeg62-turbo     ##PROBABLY YOU HAVE OTHER VERSION. If it isn't "9". You need to launch this 2 commands replacing the number of version you've
+sudo apt remove libjpeg62-turbo-dev 
+sudo dpkg -i extra/*.deb
+sudo apt install --fix-broken
+
+# copy sample settings and update for your install /NOW YOU NEED TO PREPARE THIS FILE AS NORMAL INSTALLATION/
 cp config/settings.yml.sample config/settings.yml
 vi config/settings.yml
 
-# perform install
+# perform install /FINALLY INSTALL.
+sudo echo                           #####THIS WILL BE USED TO ACTIVATE SUDO BEFORE START TO INSTALL
 ./install_and_upgrade.sh
 ```
 
