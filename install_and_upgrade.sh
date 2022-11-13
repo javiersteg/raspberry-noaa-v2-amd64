@@ -146,6 +146,7 @@ log_finished "raspberry-noaa-v2 has been successfully installed/upgraded!"
 echo ""
 log_finished "You can view the webpanel updates by visiting the URL(s) listed in the"
 log_finished "'output web server url' and 'output web server tls url' play outputs above."
+printf 'YES\n' | wxtoimg
 echo "-------------------------------------------------------------------------------"
 echo ""
 
