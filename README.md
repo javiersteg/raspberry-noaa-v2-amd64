@@ -13,7 +13,7 @@ EXTRA REQUIRMENTS!!! READ THIS PART:
 
 -You need to enter more commands. But i'm preparing it to be copy paste commands.
 
--It's recomended minium knowledge about Linux and Debian. 
+-It's recomended intermediate knowledge about Linux and Debian. 
 
 -I'm trying to get a simple Virtualbox Machine to be more easier for the people to use this FORK.
 
