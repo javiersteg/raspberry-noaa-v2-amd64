@@ -35,6 +35,6 @@
 - name: install wkhtmltox (wkhtmltoimg)
   become: yes
   apt:
-    deb: https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.bullseye_amd64.deb
+    deb: "{{ noaa_home }}/software/wkhtmltox_0.12.6.1-2.bullseye_i386.deb"
     state: present
 ...
