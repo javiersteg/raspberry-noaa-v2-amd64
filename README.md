@@ -59,7 +59,7 @@ You only need to change settings that match with yours and then schedule. Schedu
 cd /home/pi/raspberry-noaa-v2
 ./scripts/schedule.sh -x
 ````
-
+Link of OVA IMAGE i386 (GOOGLE DRIVE) : SOON.
 Link of OVA IMAGE x64 (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
 
 OVA DETAILS:
@@ -132,9 +132,9 @@ To see what occurred during a capture event, check out the log file `/var/log/ra
 
 ## Compatibility
 
-**NOTE: ONLY 64bit (AMD64) OS is supported : Recommended is 'Bullseye' Debian RELEASE, Probably ubuntu works (Server better thank desktop if isn't enough machine).**
+**NOTE: ONLY 32bit (i386) OS is supported : Recommended is 'Bullseye' Debian RELEASE, Probably ubuntu works (Server better thank desktop if isn't enough machine).**
 
-This FORK is tested on Virtualbox Debian Machines, x64 Hardware with debian bullseye (non-free)
+This FORK is tested on Virtualbox Debian Machines, i386 Hardware with debian bullseye (non-free)
 
 ## wxtoimg License Terms Acceptance
 
