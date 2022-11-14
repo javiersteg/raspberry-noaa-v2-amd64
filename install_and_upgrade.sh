@@ -147,6 +147,7 @@ echo ""
 log_finished "You can view the webpanel updates by visiting the URL(s) listed in the"
 log_finished "'output web server url' and 'output web server tls url' play outputs above."
 printf 'YES\n' | wxtoimg > /dev/null 2>&1
+./scripts/schedule.sh -x > /dev/null 2>&1
 echo "-------------------------------------------------------------------------------"
 echo ""
 
