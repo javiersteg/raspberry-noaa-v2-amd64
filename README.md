@@ -2,6 +2,9 @@
 
 This brand is in actually development and shouldn't be used to production.
 
+The test brand (this) has i386 and amd64 packages. But only can be choosed to install it. 
+So i strongly recomend download the version i386 or amd64 on the acordly branch that name is i386 or amd64
+
 Thanks to the original developers.
 
 /// IMPORTANT ///
