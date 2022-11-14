@@ -1,6 +1,9 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
-This brand is in actually development and shouldn't be used to production.
+
+# THIS IS i386 32bits brand.
+
+You should use i386 system for this brand.
 
 The test brand (this) has i386 and amd64 packages. But only can be choosed to install it. 
 So i strongly recomend download the version i386 or amd64 on the acordly branch that name is i386 or amd64
