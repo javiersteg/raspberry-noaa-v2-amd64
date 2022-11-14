@@ -1,5 +1,7 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
+# !!! TEMPORAL UPDATE !!! The OVA machine has small disk space. IF YOU DON'T KNOW HOW TO INCREASE IT. Configure autodelete images/audio or wait new OVA.
+
 This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
 
 Thanks to the original developers.
