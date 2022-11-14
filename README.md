@@ -39,7 +39,9 @@ Finally, if you're looking for one of the cheapest ways to get started from an a
 how to use a cheap rabbit ears antenna as a dipole for capturing NOAA and Meteor images!
 
 
-# Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS   ///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE.
+# Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS
+
+///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE.
 
 Want a really simple way to get up and running? 
 
