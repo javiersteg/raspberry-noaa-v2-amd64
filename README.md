@@ -57,7 +57,7 @@ cd /home/pi/raspberry-noaa-v2
 ./scripts/schedule.sh -x
 ````
 
-Link of OVA IMAGE (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
+Link of OVA IMAGE x64 (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
 
 OVA DETAILS:
 
@@ -86,7 +86,6 @@ reach out by submitting an issue:
 #Now you need to be sudo. Be logged on "pi" USER. After this you can continue
 
 #ADD i386 ARCHITECTURE TO BE USABLE BY RASPNOAAV2
-sudo dpkg --add-architecture i386
 sudo apt update
 
 #INSTALL ANSIBLE, GIT AND RTL-SDR before.
@@ -94,7 +93,7 @@ sudo apt install -y ansible rtl-sdr git
 
 # clone repository
 cd $HOME
-git clone https://github.com/javiersteg/raspberry-noaa-v2-amd64.git
+git clone --branch all_i386 https://github.com/javiersteg/raspberry-noaa-v2-amd64.git
 mv raspberry-noaa-v2-amd64 raspberry-noaa-v2
 cd raspberry-noaa-v2/
 
@@ -105,7 +104,7 @@ sudo udevadm control --reload-rules
 #INSTALL EXTRA FILES THAT DEBIAN NOT FOUND:
 sudo apt remove libjpeg62-turbo     ##PROBABLY YOU HAVE OTHER VERSION. If it isn't "9". You need to launch this 2 commands replacing the number of version you've
 sudo apt remove libjpeg62-turbo-dev 
-sudo dpkg -i extra/*.deb
+sudo dpkg -i software/*.deb
 sudo apt install -y --fix-broken
 
 # copy sample settings and update for your install /NOW YOU NEED TO PREPARE THIS FILE AS NORMAL INSTALLATION/
