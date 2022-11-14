@@ -1,7 +1,7 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
 
-# THIS IS i386 32bits brand.
+# THIS IS i386 32bits branch.
 
 You should use i386 system for this branch.
 
