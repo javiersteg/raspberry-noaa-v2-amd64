@@ -57,9 +57,10 @@ You only need to change settings that match with yours and then schedule. Schedu
 cd /home/pi/raspberry-noaa-v2
 ./scripts/schedule.sh -x
 ````
-## On the virtual machine description there is more explanation about it:
+### On the virtual machine description there is more explanation about it:
 
 Link of OVA IMAGE x64 remix with i368(GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing      ///NEEDS x64 to work///
+
 Link of OVA IMAGE i386 (GOOGLE DRIVE) : https://drive.google.com/file/d/1KlGXF9oXtNYb7IojyNqivMoCfLZ3Sajl/view?usp=sharing
 
 OVA DETAILS:
