@@ -47,7 +47,12 @@ Want a really simple way to get up and running?
 
 Download the OVA with all installed:
 
-You only need to change settings that match with yours.
+You only need to change settings that match with yours and then schedule. Schedule with command: 
+
+```bash
+cd /home/pi/raspberry-noaa-v2
+./scripts/schedule.sh -x
+````
 
 Link of OVA IMAGE (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
 
