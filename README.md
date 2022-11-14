@@ -66,11 +66,8 @@ reach out by submitting an issue:
 sudo dpkg --add-architecture i386
 sudo apt update
 
-#INSTALL ANSIBLE AND RTL-SDR before.
-sudo apt install -Y ansible rtl-sdr
-
-# install git
-sudo apt-get -y install git
+#INSTALL ANSIBLE, GIT AND RTL-SDR before.
+sudo apt install -y ansible rtl-sdr git
 
 # clone repository
 cd $HOME
