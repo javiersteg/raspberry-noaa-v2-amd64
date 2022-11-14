@@ -45,7 +45,7 @@ how to use a cheap rabbit ears antenna as a dipole for capturing NOAA and Meteor
 
 Want a really simple way to get up and running? 
 
-Download the OVA with all installed:
+Download the OVA with all installed: (I TESTED AND IT'S WORKING GREAT WITH NOAA, METEOR M2 I'm testing it)
 
 You only need to change settings that match with yours and then schedule. Schedule with command: 
 
