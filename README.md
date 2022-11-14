@@ -44,10 +44,22 @@ NOAA and Meteor-M 2 satellite imagery capture setup for the Raspberry Pi!
 
 See "Credits" for the awesome way this version of the framework came to be.
 
-## Super Easy setup: Use a maintained image
+## Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS   ///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE.
 Want a really simple way to get up and running? 
 
-On the future will be an OVA virtualbox Appliance to be easier
+Download the OVA with all installed:
+
+You only need to change settings that match with yours.
+Link of OVA IMAGE (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
+
+OVA DETAILS:
+
+It's recomended minium virtualbox managment knowledge. Ethernet adapter need to be in Bridge Mode to permit conecting to the web over house network.
+-Size: 2102 MB
+HASHES: 
+  -MD5: a929957cb37a66e4b7b24f0c2da5d296  RASP_NOA_V2_AMD64.ova
+  -SHA256: b8bbb1348509b894161a0b12902113f6f97f9c19a12a449054358c0ae9e83b3e  RASP_NOA_V2_AMD64.ova
+
 
 ## Quick Start - building latest from the source on this repo
 /// IMPORTANT ///
