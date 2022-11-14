@@ -1,6 +1,6 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
-# !!! TEMPORAL UPDATE !!! The OVA machine has small disk space. IF YOU DON'T KNOW HOW TO INCREASE IT. Configure autodelete images/audio or wait new OVA.
+# !!! TEMPORAL UPDATE !!! The OVA x64 machine has small disk space. IF YOU DON'T KNOW HOW TO INCREASE IT. Configure autodelete images/audio or wait new OVA.
 
 This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
 
@@ -55,8 +55,10 @@ You only need to change settings that match with yours and then schedule. Schedu
 cd /home/pi/raspberry-noaa-v2
 ./scripts/schedule.sh -x
 ````
+## On the virtual machine description there is more explanation about it:
 
-Link of OVA IMAGE (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
+Link of OVA IMAGE x64 remix with i368(GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing      ///NEEDS x64 to work///
+Link of OVA IMAGE i386 (GOOGLE DRIVE) : https://drive.google.com/file/d/1KlGXF9oXtNYb7IojyNqivMoCfLZ3Sajl/view?usp=sharing
 
 OVA DETAILS:
 
@@ -64,11 +66,17 @@ It's recomended minium virtualbox managment knowledge. Ethernet adapter need to 
 
 -Size: 2102 MB
 
-HASHES: 
+HASHES (x64 remix): 
 
   -MD5: a929957cb37a66e4b7b24f0c2da5d296  RASP_NOA_V2_AMD64.ova
   
   -SHA256: b8bbb1348509b894161a0b12902113f6f97f9c19a12a449054358c0ae9e83b3e  RASP_NOA_V2_AMD64.ova
+  
+HASHES (i386):
+  
+  -MD5: 51957afa9596aa3f93394b5e21d5c077  raspnoav2 i386.ova
+  
+  -SHA256: 9531eee65f9f7ebda9dd18b028478511323010e1b4d5ee3a9fa535b5a6afb7f6  raspnoav2 i386.ova
 
 
 ## Quick Start - building latest from the source on this repo
