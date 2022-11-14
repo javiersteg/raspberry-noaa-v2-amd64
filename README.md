@@ -1,6 +1,6 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
-This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
+This brand is in actually development and shouldn't be used to production.
 
 Thanks to the original developers.
 
