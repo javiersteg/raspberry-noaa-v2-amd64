@@ -43,6 +43,8 @@ how to use a cheap rabbit ears antenna as a dipole for capturing NOAA and Meteor
 
 # Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS
 
+## Im preparing a guide to use this images. 
+
 ///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE.
 
 Want a really simple way to get up and running? 
