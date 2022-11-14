@@ -1,4 +1,5 @@
 ---
+#IMPORTANT, CHANGE THE FILE TO THE ARCHITECTURE LIKE i386 or amd64 on wxtoimg file
 - name: install wxtoimg
   become: yes
   apt:
