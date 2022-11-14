@@ -83,7 +83,7 @@ sudo udevadm control --reload-rules
 sudo apt remove libjpeg62-turbo     ##PROBABLY YOU HAVE OTHER VERSION. If it isn't "9". You need to launch this 2 commands replacing the number of version you've
 sudo apt remove libjpeg62-turbo-dev 
 sudo dpkg -i extra/*.deb
-sudo apt install --fix-broken
+sudo apt install -y --fix-broken
 
 # copy sample settings and update for your install /NOW YOU NEED TO PREPARE THIS FILE AS NORMAL INSTALLATION/
 cp config/settings.yml.sample config/settings.yml
