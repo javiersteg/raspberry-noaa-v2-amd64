@@ -1,9 +1,10 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
-This brand is in actually development and shouldn't be used to production.
+# THIS IS AMD64 BRANCH
+To use this branch you require an x64 machine. 
 
-The test brand (this) has i386 and amd64 packages. But only can be choosed to install it. 
-So i strongly recomend download the version i386 or amd64 on the acordly branch that name is i386 or amd64
+THIS BRANCH USE the extra PACKAGES ALL x64. 
+The master branch uses mix off all of them
 
 Thanks to the original developers.
 
@@ -59,7 +60,7 @@ cd /home/pi/raspberry-noaa-v2
 
 Link of OVA IMAGE (GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing
 
-OVA DETAILS:
+OVA DETAILS: x64 machine with some i386 packages.
 
 It's recomended minium virtualbox managment knowledge. Ethernet adapter need to be in Bridge Mode to permit conecting to the web over house network.
 
@@ -94,7 +95,7 @@ sudo apt install -y ansible rtl-sdr git
 
 # clone repository
 cd $HOME
-git clone https://github.com/javiersteg/raspberry-noaa-v2-amd64.git
+git clone --branch all_amd64 https://github.com/javiersteg/raspberry-noaa-v2-amd64.git
 mv raspberry-noaa-v2-amd64 raspberry-noaa-v2
 cd raspberry-noaa-v2/
 
@@ -105,7 +106,7 @@ sudo udevadm control --reload-rules
 #INSTALL EXTRA FILES THAT DEBIAN NOT FOUND:
 sudo apt remove libjpeg62-turbo     ##PROBABLY YOU HAVE OTHER VERSION. If it isn't "9". You need to launch this 2 commands replacing the number of version you've
 sudo apt remove libjpeg62-turbo-dev 
-sudo dpkg -i extra/*.deb
+sudo dpkg -i software/*.deb
 sudo apt install -y --fix-broken
 
 # copy sample settings and update for your install /NOW YOU NEED TO PREPARE THIS FILE AS NORMAL INSTALLATION/
