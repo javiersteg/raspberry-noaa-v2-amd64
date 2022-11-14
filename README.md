@@ -124,33 +124,12 @@ on how to handle self-signed certificates when attempting to visit your webpanel
 
 To see what occurred during a capture event, check out the log file `/var/log/raspberry-noaa-v2/output.log`.
 
-## Why a Version 2?
-
-A lot of the work done by Nico and the original Instructables poster was absolutely fantastic and simple. However, as I started
-using the framework, I found myself making a lot of changes but getting the changes into place in a manageable way was a bit difficult.
-In discussing this with Nico, we agreed that there is a logical next maturity step for this framework, so I took this on to provide
-a simple, one-command script and corresponding framework to manage and maintain the entire project when any changes occur, and
-refactored the webpanel functionality significantly to enable better feature additions in the future.
-
-Check out the release notes for fixes and enhancements for each of the various releases since the V1 split to V2!
-
-Also, check out [THIS LINK](docs/webpanel_screenshots.md) for some screen shots of the webpanel, which is now mobile friendly!
 
 ## Compatibility
 
-**NOTE: ONLY 32bit OS is supported : Recommended is 'Bullseye' Release.**
+**NOTE: ONLY 64bit (AMD64) OS is supported : Recommended is 'Bullseye' Debian RELEASE, Probably ubuntu works (Server better thank desktop if isn't enough machine).**
 
-The original raspberry-noaa was tested on Raspberry Pi 2 and up. However, while it's possible this compatibility has been maintained
-with raspberry-noaa-v2, this version was developed and tested on a Raspberry Pi 4 - it has not been exhaustively tested on other variants
-of Raspberry Pi (but if you get it working on a version, please do submit a PR and mention it so this document can be updated!).
-
-In addition, it's recommended that the Official Release of [Raspberry Pi OS](https://www.raspberrypi.org/software/) operating system is used 
-**(not the very latest build)** - this is the OS that has been tested and proven working. 
-
-If you do test with another OS - again, please submit a PR and let us know how it works out!
-
-If you're interested in the details behind the original raspberry-noaa hardware compatibility tests, see the [hardware](docs/hardware.md)
-document.
+This FORK is tested on Virtualbox Debian Machines, x64 Hardware with debian bullseye (non-free)
 
 ## wxtoimg License Terms Acceptance
 
@@ -163,43 +142,11 @@ use this framework.
 
 Below are some prerequisites steps and considerations prior to installing this software:
 
-1. Although the software certainly works on a Pi with a desktop environment installed, it would be best to use the minimal Raspberry Pi
-OS (no desktop environment) to help avoid processing interference due to higher CPU/Memory consumption from the GUI components.
-2. Update your localisation settings on your Pi prior to installing the software using the `sudo raspi-config` command, updating
-"5 Localisation Options -> L1 Locale" and "5 Localisation Options -> L2 Timezone" settings to match your base station location for more
-consistent time and language handling.
+1. Recomended all settings like Locale, Timezone.... Set for your needs.
 3. You need git installed to clone the repository - this can be done via `sudo apt-get -y install git`.
-4. It is recommended to change your `pi` user default password after logging into the Raspberry Pi for the first time. While it is not
+4. It is recommended to change your `pi` user default password after logging into the system for the first time. While it is not
 recommended that you expose a Pi instance to the public internet for access (unless you have a VERY strict process about security
 patching, and even then it would still be questionable), updating your Pi user password is a decent first step for security.
-
-## Install
-
-To install the product and get going, simply clone the project to the `pi` user's home directory, set up your settings, and run the
-install script:
-
-```bash
-# install git
-sudo apt-get -y install git
-
-# clone repository
-cd $HOME
-git clone https://github.com/jekhokie/raspberry-noaa-v2.git
-cd raspberry-noaa-v2/
-
-# copy sample settings and update for your install
-cp config/settings.yml.sample config/settings.yml
-vi config/settings.yml
-
-# perform install
-./install_and_upgrade.sh
-```
-
-Once the script completes, you can either follow the [migration document](docs/migrate_from_raspberry_noaa.md) (if you had previously
-been using raspberry-noaa on this device) or, if this is a brand new setup, just visit the webpanel and get going!
-
-**NOTE**: If you have elected to run a TLS-enabled web server, see [THIS LINK](docs/tls_webserver.md) for some additional information
-on how to handle self-signed certificates when attempting to visit your webpanel and enabling auth for the admin pages.
 
 ## Upgrade
 
