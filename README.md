@@ -1,10 +1,59 @@
 ![Raspberry NOAA](assets/header_1600_v2.png)
 
-# !!! TEMPORAL UPDATE !!! The OVA x64 machine has small disk space. IF YOU DON'T KNOW HOW TO INCREASE IT. Configure autodelete images/audio or wait new OVA.
-
 This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AMD64 Architecture computers.
 
 Thanks to the original developers.
+
+My intention is create all installed working appliance that you only need to import, conect USB, change config, update config with install script and schedule. That's all you need to get it working. But, you can build youself using the readmy instructions on the specifically branc (amd64 or i386).
+
+I did the i386 and amd64 Virtual Box appliance with the maximum packages that i could with the architecture. This applies to i386 ova or amd64. Not for the amd64 remix image.
+
+### The most useful characteristic of install over build is that you can install it on any i386/amd64 linux system, prefered Debian, but ubuntu works well. If you prefer virtual machine read this:
+
+# Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS
+
+### !!! TEMPORAL UPDATE !!! The OVA x64 machine has small disk space. IF YOU DON'T KNOW HOW TO INCREASE IT. Configure autodelete images/audio or wait new OVA.
+
+## Im preparing a guide to use this images. 
+
+///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE. 
+
+Want a really simple way to get up and running? 
+
+Download the OVA with all installed: (I TESTED AND IT'S WORKING GREAT WITH NOAA, METEOR M2 I'm testing it)
+
+You only need to change settings that match with yours and then schedule. Schedule with command: 
+
+```bash
+cd /home/pi/raspberry-noaa-v2
+./scripts/schedule.sh -x
+````
+### On the virtual machine description there is more explanation about it:
+
+Link of OVA IMAGE i386 (GOOGLE DRIVE) : https://drive.google.com/file/d/1KlGXF9oXtNYb7IojyNqivMoCfLZ3Sajl/view?usp=sharing
+
+Link of OVA IMAGE amd64 (GOOGLE DRIVE) : https://drive.google.com/file/d/1TT5mGPi4QSo6zWXAenKmfQc6S7u7Snwj/view?usp=sharing
+
+Link of OVA IMAGE x64 remix with i368(GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing      ///NEEDS x64 to work///
+
+
+OVA DETAILS:
+
+It's recomended minium virtualbox managment knowledge. Ethernet adapter need to be in Bridge Mode to permit conecting to the web over house network.
+
+-Size: 2102 MB
+
+HASHES (x64 remix): 
+
+  -MD5: a929957cb37a66e4b7b24f0c2da5d296  RASP_NOA_V2_AMD64.ova
+  
+  -SHA256: b8bbb1348509b894161a0b12902113f6f97f9c19a12a449054358c0ae9e83b3e  RASP_NOA_V2_AMD64.ova
+  
+HASHES (i386):
+  
+  -MD5: 51957afa9596aa3f93394b5e21d5c077  raspnoav2 i386.ova
+  
+  -SHA256: 9531eee65f9f7ebda9dd18b028478511323010e1b4d5ee3a9fa535b5a6afb7f6  raspnoav2 i386.ova
 
 /// IMPORTANT ///
 IF YOU NEED HELP YOU CAN SEND ME A TELEGRAM: @javiersteg
@@ -39,48 +88,6 @@ your original data!
 Finally, if you're looking for one of the cheapest ways to get started from an antenna perspective, check out
 [this post](https://jekhokie.github.io/noaa/satellite/rf/antenna/sdr/2019/05/31/noaa-satellite-imagery-sdr.html), specifically around
 how to use a cheap rabbit ears antenna as a dipole for capturing NOAA and Meteor images!
-
-
-# Super Easy setup: Use a maintained APPLIANCE OVA IN WINDOWS/LINUX/MAC OS
-
-## Im preparing a guide to use this images. 
-
-///// PLEASE REPORT ME THAT YOU DISCOVER THAT I CAN IMPROVE.
-
-Want a really simple way to get up and running? 
-
-Download the OVA with all installed: (I TESTED AND IT'S WORKING GREAT WITH NOAA, METEOR M2 I'm testing it)
-
-You only need to change settings that match with yours and then schedule. Schedule with command: 
-
-```bash
-cd /home/pi/raspberry-noaa-v2
-./scripts/schedule.sh -x
-````
-### On the virtual machine description there is more explanation about it:
-
-Link of OVA IMAGE x64 remix with i368(GOOGLE DRIVE) : https://drive.google.com/file/d/12VAiZjCVBp0H4zFBu0aApt5l8hTm5e_c/view?usp=sharing      ///NEEDS x64 to work///
-
-Link of OVA IMAGE i386 (GOOGLE DRIVE) : https://drive.google.com/file/d/1KlGXF9oXtNYb7IojyNqivMoCfLZ3Sajl/view?usp=sharing
-
-OVA DETAILS:
-
-It's recomended minium virtualbox managment knowledge. Ethernet adapter need to be in Bridge Mode to permit conecting to the web over house network.
-
--Size: 2102 MB
-
-HASHES (x64 remix): 
-
-  -MD5: a929957cb37a66e4b7b24f0c2da5d296  RASP_NOA_V2_AMD64.ova
-  
-  -SHA256: b8bbb1348509b894161a0b12902113f6f97f9c19a12a449054358c0ae9e83b3e  RASP_NOA_V2_AMD64.ova
-  
-HASHES (i386):
-  
-  -MD5: 51957afa9596aa3f93394b5e21d5c077  raspnoav2 i386.ova
-  
-  -SHA256: 9531eee65f9f7ebda9dd18b028478511323010e1b4d5ee3a9fa535b5a6afb7f6  raspnoav2 i386.ova
-
 
 ## Quick Start - building latest from the source on this repo
 /// IMPORTANT ///
