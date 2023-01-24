@@ -4,7 +4,7 @@ This is a port of original RASPBERRY NOAA V2 to convert it to compatible WITH AM
 
 Thanks to the original developers.
 
-My intention is create all installed working appliance that you only need to import, conect USB, change config, update config with install script and schedule. That's all you need to get it working. But, you can build youself using the readmy instructions on the specifically branc (amd64 or i386).
+My intention is create all installed working appliance that you only need to import, conect USB, change config, update config with install script and schedule. That's all you need to get it working. But, you can build youself using the readme instructions on the specifically branc (amd64 or i386).
 
 I did the i386 and amd64 Virtual Box appliance with the maximum packages that i could with the architecture. This applies to i386 ova or amd64. Not for the amd64 remix image.
 
